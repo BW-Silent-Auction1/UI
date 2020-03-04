@@ -1,0 +1,289 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Comic Sans MS', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  font-family: 'Comic Sans MS', cursive;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.jumping-whale {
+  height: 250px;
+  width: 100%;
+  padding: 2px 140px;
+}
+nav {
+  padding: 0px 120px;
+}
+nav h1 {
+  font-size: 4rem;
+  height: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+ul {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: lightskyblue;
+}
+ul a {
+  padding: 15px 38px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+ul a:hover:not(.active) {
+  background-color: #555;
+  color: orange;
+  background-color: darkblue;
+}
+.about-us {
+  display: flex;
+  padding: 10px 140px;
+  border-bottom: 2px dotted black;
+}
+.about-us .whale1 {
+  margin: 10px;
+  width: 50%;
+}
+.about-us h1 {
+  padding-bottom: 20px;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.about-us p {
+  word-spacing: 5px;
+}
+.live-auction h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px 0px;
+}
+.live-auction .div1 {
+  padding: 10px 140px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.live-auction .div2 {
+  padding: 10px 140px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.live-auction .div3 {
+  padding: 10px 140px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.live-auction .div4 {
+  padding: 10px 140px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.live-auction .auction1 {
+  width: 40%;
+  height: 100%;
+}
+.live-auction h2 {
+  width: 40%;
+}
+.live-auction p {
+  width: 55%;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
+}
+.live-auction .button {
+  background-color: lightskyblue;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.live-auction .button:hover:not(.active) {
+  background-color: #555;
+  color: orange;
+  background-color: darkblue;
+}
+.live-auction .bold {
+  font-weight: 900;
+  text-decoration: underline;
+}
