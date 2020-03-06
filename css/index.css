@@ -220,7 +220,7 @@ ul a:hover:not(.active) {
 }
 .live-auction h1 {
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
   padding: 15px 0px;
 }
 .live-auction .div1 {
