@@ -201,6 +201,18 @@ ul a:hover:not(.active) {
   color: orange;
   background-color: darkblue;
 }
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 50px;
+}
+.bottom h3 {
+  width: 100%;
+  padding: 3px 20px 0px 20px;
+  text-align: center;
+  background-color: lightblue;
+}
 .about-us {
   display: flex;
   padding: 10px 140px;

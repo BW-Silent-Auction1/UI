@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Comic Sans MS', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  font-family: 'Comic Sans MS', cursive;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.jumping-whale {
+  height: 250px;
+  width: 100%;
+  padding: 2px 140px;
+}
+nav {
+  padding: 0px 120px;
+}
+nav h1 {
+  font-size: 4rem;
+  height: 70px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+ul {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: lightskyblue;
+}
+ul a {
+  padding: 15px 38px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+ul a:hover:not(.active) {
+  background-color: #555;
+  color: orange;
+  background-color: darkblue;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 50px;
+}
+.bottom h3 {
+  width: 100%;
+  padding: 3px 20px 0px 20px;
+  text-align: center;
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+img.auction1 {
+  width: 100%;
+  padding: 0px 250px;
+  height: 300px;
+}
+img.auction3 {
+  width: 40%;
+}
+div.div1 {
+  display: flex;
+  flex-direction: column;
+}
+p {
+  text-align: center;
+}
+footer.bottom {
+  padding: 0px;
+}
