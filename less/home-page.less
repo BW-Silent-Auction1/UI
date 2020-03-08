@@ -2,22 +2,35 @@
     display: flex;
     padding:10px 140px;
     border-bottom: 2px dotted black;
+    @media @phone {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 30px;
+
+    }
 
     .whale1{
         margin: 10px;
         width: 50%;
-       
+        @media @phone {
+            width: 100%;
+
+        }
     }
     h1{
         padding-bottom: 20px;
         font-size: 3rem;
         text-decoration: underline;
+        @media @phone {
+            text-align: center;
+        }
     }
     p{
         word-spacing: 5px;
     }
 }
 .live-auction{
+    
     h1{
         text-align: center;
         text-decoration: none;
@@ -30,6 +43,14 @@
         height: 250px;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 0px;
+            align-items: center;
+            text-align: center;
+        }
        
         
     }
@@ -40,6 +61,14 @@
         height: 250px;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 0px;
+            align-items: center;
+            text-align: center;
+        }
     }
     .div3{
         padding: 10px 140px;
@@ -48,6 +77,15 @@
         height: 250px;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        @media @phone {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 0px;
+            align-items: center;
+            text-align: center;
+            
+        }
     }
         .div4{
             padding: 10px 140px;
@@ -60,6 +98,7 @@
     .auction1{
         width: 40%;
         height: 100%;
+
         
     }
     h2{
@@ -69,6 +108,9 @@
         width: 55%;
         padding-bottom: 10px;
         font-size: 1.8rem;
+        @media @phone {
+            width: 80%;
+        }
     }
     .button{
         background-color: lightskyblue;

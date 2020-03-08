@@ -170,14 +170,33 @@ img {
   width: 100%;
   padding: 2px 140px;
 }
+@media (max-width: 500px) {
+  .jumping-whale {
+    height: 150px;
+    width: 80%;
+    padding: 0px 20px;
+    margin: 0px 10%;
+  }
+}
 nav {
   padding: 0px 120px;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    padding: 0px 30px;
+  }
 }
 nav h1 {
   font-size: 4rem;
   height: 70px;
   text-align: center;
   padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: 3rem;
+  }
 }
 ul {
   border: 1px solid black;
@@ -188,6 +207,20 @@ ul {
   align-items: center;
   height: 50px;
   background-color: lightskyblue;
+}
+@media (max-width: 500px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+  ul a {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
 }
 ul a {
   padding: 15px 38px;
@@ -212,20 +245,38 @@ ul a:hover:not(.active) {
   padding: 3px 20px 0px 20px;
   text-align: center;
   background-color: lightblue;
+  height: 20px;
 }
 .about-us {
   display: flex;
   padding: 10px 140px;
   border-bottom: 2px dotted black;
 }
+@media (max-width: 500px) {
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+}
 .about-us .whale1 {
   margin: 10px;
   width: 50%;
+}
+@media (max-width: 500px) {
+  .about-us .whale1 {
+    width: 100%;
+  }
 }
 .about-us h1 {
   padding-bottom: 20px;
   font-size: 3rem;
   text-decoration: underline;
+}
+@media (max-width: 500px) {
+  .about-us h1 {
+    text-align: center;
+  }
 }
 .about-us p {
   word-spacing: 5px;
@@ -243,6 +294,16 @@ ul a:hover:not(.active) {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .live-auction .div1 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+  }
+}
 .live-auction .div2 {
   padding: 10px 140px;
   display: flex;
@@ -251,6 +312,16 @@ ul a:hover:not(.active) {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+@media (max-width: 500px) {
+  .live-auction .div2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+  }
+}
 .live-auction .div3 {
   padding: 10px 140px;
   display: flex;
@@ -258,6 +329,16 @@ ul a:hover:not(.active) {
   height: 250px;
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+@media (max-width: 500px) {
+  .live-auction .div3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+  }
 }
 .live-auction .div4 {
   padding: 10px 140px;
@@ -278,6 +359,11 @@ ul a:hover:not(.active) {
   width: 55%;
   padding-bottom: 10px;
   font-size: 1.8rem;
+}
+@media (max-width: 500px) {
+  .live-auction p {
+    width: 80%;
+  }
 }
 .live-auction .button {
   background-color: lightskyblue;

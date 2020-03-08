@@ -46,14 +46,33 @@ img {
   width: 100%;
   padding: 2px 140px;
 }
+@media (max-width: 500px) {
+  .jumping-whale {
+    height: 150px;
+    width: 80%;
+    padding: 0px 20px;
+    margin: 0px 10%;
+  }
+}
 nav {
   padding: 0px 120px;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    padding: 0px 30px;
+  }
 }
 nav h1 {
   font-size: 4rem;
   height: 70px;
   text-align: center;
   padding-bottom: 20px;
+}
+@media (max-width: 500px) {
+  nav h1 {
+    font-size: 3rem;
+  }
 }
 ul {
   border: 1px solid black;
@@ -64,6 +83,20 @@ ul {
   align-items: center;
   height: 50px;
   background-color: lightskyblue;
+}
+@media (max-width: 500px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+  }
+  ul a {
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
 }
 ul a {
   padding: 15px 38px;
@@ -88,17 +121,27 @@ ul a:hover:not(.active) {
   padding: 3px 20px 0px 20px;
   text-align: center;
   background-color: lightblue;
+  height: 20px;
 }
 h1 {
   text-align: center;
+  text-decoration: underline;
 }
 h2 {
+  text-align: center;
+}
+h3 {
   text-align: center;
 }
 img.auction1 {
   width: 100%;
   padding: 0px 250px;
   height: 300px;
+}
+@media (max-width: 500px) {
+  img.auction1 {
+    padding: 0px;
+  }
 }
 img.auction3 {
   width: 40%;
@@ -109,7 +152,5 @@ div.div1 {
 }
 p {
   text-align: center;
-}
-footer.bottom {
-  padding: 0px;
+  padding: 0px 50px;
 }

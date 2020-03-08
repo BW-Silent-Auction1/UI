@@ -2,14 +2,27 @@
     height: 250px;
     width: 100%;
     padding: 2px 140px;
+    @media @phone {
+        height: 150px;
+        width: 80%;
+        padding: 0px 20px;
+        margin: 0px 10%;
+    }
 }
 nav{
     padding: 0px 120px;
+    @media @phone {
+        width: 100%;
+        padding: 0px 30px;
+    }
     h1{
         font-size: 4rem;
         height: 70px;
         text-align: center;
         padding-bottom: 20px;
+        @media @phone {
+            font-size: 3rem;
+        }
     }
 
 }
@@ -22,6 +35,18 @@ justify-content: space-between;
 align-items: center;
 height: 50px;
 background-color: lightskyblue;
+@media @phone {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    a{
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+}
 a{
     padding: 15px 38px;
     font-size: 1.8rem;

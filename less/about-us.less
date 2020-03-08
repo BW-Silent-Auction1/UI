@@ -1,18 +1,26 @@
 @import "global.less";
 @import "navigation.less";
 @import "footer.less";
+@import "variables.less";
 
 
 h1{
     text-align: center;
+    text-decoration: underline;
 }
 h2{
+    text-align: center;
+}
+h3{
     text-align: center;
 }
 img.auction1{
     width: 100%;
     padding: 0px 250px;
     height: 300px;
+    @media @phone {
+        padding: 0px;
+    }
 
 
 }
@@ -26,9 +34,10 @@ div.div1{
 }
 p{
     text-align: center;
+    padding: 0px 50px;
 }
 footer.bottom{
-    padding:0px;
+   
 }
 
  
